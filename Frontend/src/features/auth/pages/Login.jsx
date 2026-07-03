@@ -15,7 +15,7 @@ import { useNavigate } from "react-router";
         const handleSubmit = async (e) => {
             e.preventDefault()
             await handleLogin({email,password})
-            navigate('/')
+            navigate('/home')
             // Handle login logic here
         }
         if(loading){
